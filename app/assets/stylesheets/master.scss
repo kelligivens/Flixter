@@ -32,6 +32,17 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color: white;
 }
 
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .frosty h1 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
