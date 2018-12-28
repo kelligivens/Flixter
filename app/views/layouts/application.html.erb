@@ -64,11 +64,11 @@
       <div class="col-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
+        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Careers', '#' %>
+        <%= link_to 'Careers', careers_path %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-12 col-sm-3">
         <b>Contact</b>
@@ -77,18 +77,22 @@
         <br />
         Farm 811 Portion 27
         <br />
-        Tesselaarsdal, 7230 South Africa
+        Tesselaarsdal, 7230 RSA
       </div>
-      <div class="col-12 col-sm-3 social">
-        <b>Social</b>
+      
+      <div class="col-12 col-sm-3">
+      <b>Social</b>
         <br />
         <br />
-        <% link_to 'https://github.com/kelligivens' do %>
-        <span class="fa fa-github-square fa-2x social-button"></span>
-        <% link_to 'https://www.facebook.com/kelli.givens.5' do %>
-        <span class="fa fa-facebook-square fa-2x social-button"></span>
-        <% link_to '@kelligivens' do %>
-        <span class="fa fa-twitter-square fa-2x social-button"></span>
+          <%= link_to 'http://github.com/kelligivens' do %>
+            <span class="fa fa-github-square fa-2x social-button"></span>
+          <% end %>
+          <%= link_to 'https://facebook.com/kelli.givens.5' do %>
+            <span class="fa fa-facebook-square fa-2x social-button"></span>
+          <% end %>
+           <%= link_to 'https://twitter.com/kelligivens' do %>
+          <span class="fa fa-twitter-square fa-2x social-button"></span>
+          <% end %>
       </div>
     </div>
   </div>
@@ -96,8 +100,8 @@
     
     <script src="https://vjs.zencdn.net/5.12.6/video.js"></script>
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+         
   </body>
 </html>
 
 
-<% end %>
